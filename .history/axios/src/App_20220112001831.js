@@ -1,8 +1,8 @@
 import React,{Component} from 'react'
-import axios  from 'axios'
+import axios 
 import './App.css';
 
-
+import React, { Component } from 'react'
 
 export default class App extends Component {
 
@@ -19,7 +19,6 @@ export default class App extends Component {
     return (
       <div>
         <button onClick={this.getStudentData}>Click Me to get student Data</button>
-        <button onClick={this.getCarData}>Click Me to get car Data</button>
       </div>
     )
   }

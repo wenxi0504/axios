@@ -19,7 +19,6 @@ export default class App extends Component {
     return (
       <div>
         <button onClick={this.getStudentData}>Click Me to get student Data</button>
-        <button onClick={this.getCarData}>Click Me to get car Data</button>
       </div>
     )
   }
